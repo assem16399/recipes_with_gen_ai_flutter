@@ -14,6 +14,7 @@ flutter run --dart-define=API_KEY=your_api_key
 # Requirements:
 ### Functional
   - Sending User Pormpt to GEMINI API to Generate a recipe.
+  - Allowing the user to add images of ingredients they have with the prompt
   - Displaying the recipe.
  
 # Decisions

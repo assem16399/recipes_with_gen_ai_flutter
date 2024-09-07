@@ -8,7 +8,7 @@ Before running the app:
 Then, pass the API key in with dart define when running the app:
 
 ```bash
-flutter run --dart-define=API_KEY=your_api_key
+flutter run --dart-define=GEMINI_API_KEY=your_api_key
 ```
 
 # Requirements:

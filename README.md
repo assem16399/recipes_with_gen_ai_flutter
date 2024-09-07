@@ -18,11 +18,16 @@ flutter run --dart-define=API_KEY=your_api_key
  
 # Decisions
 
-- This app was not focused on using clean architecture or following the best coding practices but was more focused on getting the functionality done, using the capabilities of GEMINAI API and creating an MVP  
+- This app was not focused on using clean architecture or following the best coding practices but was more focused on getting the functionality done, using the capabilities of GEMINAI API, and creating an MVP
+- This app used BLoC Library for state management
 
    
 # What could be improved
+### Functionality
+- Sometimes the prompt we get from GEMINAI API is not formatted in the way we want, so we can work on the prompt and processing the response to ensure that it is getting formatted correctly to be parsed successfully.
+- Implementing favoriting recipes feature.
+
+### Architecture
 - Following BLoC architecture guild lines.
 - Following clean code best practices
 - Introducing repo design pattern.
-- Implementing favoriting recipes feature.

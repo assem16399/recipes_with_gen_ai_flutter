@@ -25,7 +25,7 @@ flutter run --dart-define=GEMINI_API_KEY=your_api_key
    
 # What could be improved
 ### Functionality
-- Sometimes the prompt we get from GEMINAI API is not formatted in the way we want, so we can work on the prompt and processing the response to ensure that it is getting formatted correctly to be parsed successfully.
+- Sometimes the prompt we get from GEMINI API is not formatted in the way we want, so we can work on the prompt and processing the response to ensure that it is getting formatted correctly to be parsed successfully.
 - Implementing favoriting recipes feature.
 
 ### Architecture

@@ -1,16 +1,28 @@
-# recipes_with_gen_ai
 
-A new Flutter project.
+# Demo
 
-## Getting Started
+https://github.com/user-attachments/assets/ae8c77d6-7757-498f-ada0-3f9729d83703
 
-This project is a starting point for a Flutter application.
+Before running the app:
+* Get an API key from [ai.google.dev](ai.google.dev).
+Then, pass the API key in with dart define when running the app:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter run --dart-define=API_KEY=your_api_key
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Requirements:
+### Functional
+  - Sending User Pormpt to GEMINI API to Generate a recipe.
+  - Displaying the recipe.
+ 
+# Decisions
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- This app was not focused on using clean architecture or following the best coding practices but was more focused on getting the functionality done, using the capabilities of GEMINAI API and creating an MVP  
+
+   
+# What could be improved
+- Following BLoC architecture guild lines.
+- Following clean code best practices
+- Introducing repo design pattern.
+- Implementing favoriting recipes feature.

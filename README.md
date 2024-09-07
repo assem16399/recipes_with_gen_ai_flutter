@@ -19,7 +19,7 @@ flutter run --dart-define=API_KEY=your_api_key
  
 # Decisions
 
-- This app was not focused on using clean architecture or following the best coding practices but was more focused on getting the functionality done, using the capabilities of GEMINAI API, and creating an MVP
+- This app was not focused on using clean architecture or following the best coding practices but was more focused on getting the functionality done, using exploring the capabilities of GEMINAI API, and creating an MVP
 - This app used BLoC Library for state management
 
    

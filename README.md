@@ -32,3 +32,4 @@ flutter run --dart-define=API_KEY=your_api_key
 - Following BLoC architecture guild lines.
 - Following clean code best practices
 - Introducing repo design pattern.
+- Introducing Service Locator to manage app dependencies.
